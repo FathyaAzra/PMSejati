@@ -5,12 +5,12 @@ plugins {
 
 android {
     namespace = "net.fazra.pmsejati"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "net.fazra.pmsejati"
         minSdk = 33
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 1
         versionName = "1.0"
 
@@ -31,8 +31,9 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "17"
     }
+
 }
 
 dependencies {
